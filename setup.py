@@ -8,7 +8,7 @@ setup(
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'dnacli=dnacli:main'
+            'dnacli=dnatoolkit/dnacli:main'
         ]
     },
     install_requires=[],
